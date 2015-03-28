@@ -1,4 +1,4 @@
-# WP Boost!
+# WP Stub!
 
 **Boilerplate code used to kick-start WordPress projects.**
 
@@ -11,5 +11,5 @@ This repo will eventually contain an updated version of my [Bueller repo/workflo
 Using `cURL` and `tar` on a unix system:
 
 ```bash
-$ curl -#L https://github.com/mhulse/wp-boost/tarball/master | tar -xzv --strip-components 1 --exclude=*/{.git*,.editor*,README.*,LICENSE,*.sublime*}
+$ curl -#L https://github.com/mhulse/wp-stub/tarball/master | tar -xzv --strip-components 1 --exclude=*/{.git*,.editor*,README.*,LICENSE,*.sublime*}
 ```
