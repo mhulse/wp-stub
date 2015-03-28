@@ -1,6 +1,6 @@
 # WP Stub
 
-**A temporary substitute for yet-to-be-developed code.**
+**A temporary substitute for _yet-to-be-developed_ code.**
 
 ---
 
