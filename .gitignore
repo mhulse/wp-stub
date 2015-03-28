@@ -73,6 +73,3 @@ sitemap.xml.gz*~
 
 # PROJECT-SPECIFIC #
 ####################
-
-wp-config.php
-/content/upgrade/
