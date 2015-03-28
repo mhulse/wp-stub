@@ -1,6 +1,6 @@
-# WP Stub
+# WP Boost!
 
-**A temporary substitute for _yet-to-be-developed_ code.**
+**Boilerplate code used to kick-start WordPress projects.**
 
 ---
 
