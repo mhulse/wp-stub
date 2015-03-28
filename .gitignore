@@ -74,6 +74,5 @@ sitemap.xml.gz*~
 # PROJECT-SPECIFIC #
 ####################
 
-/wp-config.php
-/content/*/*
-!/content/*/*.php
+wp-config.php
+/content/upgrade/
