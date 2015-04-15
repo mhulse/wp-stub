@@ -80,6 +80,27 @@ Things like your `uploads/` and `plugins/` directories may need to have looser p
 
 Visit `/wp` url and install WP …
 
+Virtual hosts:
+
+```apache
+<VirtualHost *:80>
+	DocumentRoot "/Users/xxx/wordpress"
+	ServerName wp.local
+	ServerAlias www.wp.local
+	ErrorLog "logs/wp.local-error.log"
+	CustomLog "logs/wp.local-access.log" combined
+	#DirectoryIndex index.html
+	<Directory "/Users/xxx/wordpress">
+		IndexOptions +FancyIndexing NameWidth=*
+		Options -Indexes +Includes +FollowSymLinks +MultiViews
+		AllowOverride All
+		Order allow,deny
+		Allow from all
+		Require all granted
+	</Directory>
+</VirtualHost>
+```
+
 More information coming soon.
 
 ### Manually:
