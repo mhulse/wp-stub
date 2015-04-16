@@ -96,7 +96,6 @@ Virtual hosts:
 		AllowOverride All
 		Order allow,deny
 		Allow from all
-		Require all granted
 	</Directory>
 </VirtualHost>
 ```
